@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kumar Sutikshan | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="relative bg-white text-black font-sans transition-colors duration-300">
+
+  <!-- Full-site Particles Background -->
+  <div id="particles-js" class="fixed inset-0 z-0"></div>
+
+  <!-- Navbar -->
+  <header class="fixed top-0 w-full z-20 bg-white backdrop-blur-lg shadow">
+    <nav class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold">Kumar Sutikshan</h1>
+      <ul class="flex gap-4 text-sm font-medium">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Optional Toggles (commented out) -->
+      <!-- 
+      <div class="flex items-center gap-3">
+        <input type="color" id="colorPicker" title="Pick a Theme Color" class="w-6 h-6 rounded-full cursor-pointer"/>
+        <button id="toggleMode" class="ml-2">
+          <span id="themeIcon">🌞</span>
+        </button>
+      </div>
+      -->
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="pt-24 space-y-32 relative z-10">
+
+    <!-- Home -->
+    <section id="home" class="min-h-screen flex items-center justify-center text-center px-4">
+      <div>
+        <h2 class="text-4xl md:text-6xl font-extrabold animate-fadeInUp">Hello, I'm <span class="text-primary">Kumar Sutikshan</span></h2>
+        <p class="mt-4 text-lg md:text-xl animate-fadeInUp delay-1">Full Stack & Cybersecurity Enthusiast</p>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">About Me</h2>
+      <p class="text-lg leading-relaxed">
+        I am a self-driven full stack developer with solid expertise in PHP, JavaScript, MySQL, and interactive design. With deep interest in cybersecurity and cloud technologies, I enjoy building secure and user-friendly applications.
+      </p>
+      <a id="resumeButton" href="/assets/Kumar_Sutikshan_Resume.pdf" download class="btn mt-6 inline-block">📄 Know Me More</a>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="project-card">
+          <h3 class="font-semibold text-xl">TrackExpense</h3>
+          <p class="text-sm mb-2">An interactive expense tracker for personal and team finances with chart analytics and invites.</p>
+          <a href="https://github.com/BeyondSpace1/expense-tracker" target="_blank" class="btn-link">🔗 GitHub</a>
+        </div>
+
+        <div class="project-card">
+          <h3 class="font-semibold text-xl">ProLib</h3>
+          <p class="text-sm mb-2">Academic project library system with filtering, search, and CRUD features for student records.</p>
+          <a href="https://github.com/BeyondSpace1/ProLib" target="_blank" class="btn-link">🔗 GitHub</a>
+        </div>
+
+        <div class="project-card">
+          <h3 class="font-semibold text-xl">NexCrypt</h3>
+          <p class="text-sm mb-2">Lightweight encryption/decryption tool with fast performance and real-time encrypted output.</p>
+          <a href="https://github.com/BeyondSpace1/NexCrypt" target="_blank" class="btn-link">🔗 GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-4">Experience</h2>
+      <ul class="space-y-4">
+        <li>
+          <h3 class="font-semibold text-lg">Full-Stack Developer – Prashaar Innovations</h3>
+          <p class="text-sm text-gray-600">May 2024 – April 2025</p>
+          <p>Built Core-PHP financial and healthcare applications. Led backend integration and documented 50+ client reports.</p>
+        </li>
+        <li>
+          <h3 class="font-semibold text-lg">Student Intern – Dev Sanskriti Vishwavidyalaya (SDC)</h3>
+          <p class="text-sm text-gray-600">Feb 2022 – June 2022</p>
+          <p>Worked on academic analytics, documentation, speech tech, and internal audit support.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-4">Education</h2>
+      <ul class="space-y-4">
+        <li>
+          <h3 class="font-semibold">MCA – Mahatma Gandhi Kashi Vidyapith</h3>
+          <p class="text-sm text-gray-600">2022 – 2024</p>
+        </li>
+        <li>
+          <h3 class="font-semibold">BCA – Dev Sanskriti Vishwavidyalaya</h3>
+          <p class="text-sm text-gray-600">2019 – 2022</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-4">Skills</h2>
+      <ul class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm">
+        <li>PHP</li>
+        <li>MySQL</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+        <li>React</li>
+        <li>TailwindCSS</li>
+        <li>MongoDB</li>
+        <li>Cybersecurity</li>
+        <li>Linux</li>
+        <li>WAMP/XAMPP</li>
+        <li>UI/UX</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+      <p class="mb-2">📧 <a href="mailto:kumarsutikshan.1@gmail.com" class="text-primary underline">kumarsutikshan.1@gmail.com</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/kumar-sutikshan" target="_blank" class="text-primary underline">LinkedIn</a> | <a href="https://github.com/BeyondSpace1" target="_blank" class="text-primary underline">GitHub</a></p>
+    </section>
+  </main>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="/assets/js/particles-config.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
