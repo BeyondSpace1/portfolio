@@ -2,7 +2,7 @@
  
 *A modern, highly interactive, single-page portfolio showcasing my projects, skills, and experience.*
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-brightgreen?style=for-the-badge)](https://your-live-link.com)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-brightgreen?style=for-the-badge)](https://beyondspace1.github.io/portfolio/)
 [![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)]()
 [![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white)]()
 [![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black)]()
