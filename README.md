@@ -136,7 +136,7 @@ Self-driven and detail-oriented Full Stack Web Developer with hands-on experienc
 
 </details>
 
----
+<!-- ---
 
 ## 🚀 Deployment
 
@@ -146,7 +146,7 @@ Self-driven and detail-oriented Full Stack Web Developer with hands-on experienc
 3. Source: `main` branch, root folder
 4. Save → Your portfolio is live 🎉
 
----
+--- -->
 
 ## 📬 Contact
 
