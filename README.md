@@ -63,7 +63,7 @@ Built as a **Single Page Application (SPA-like)** with smooth scrolling, auto-hi
 ---
 
 ## 📂 Project Structure
-
+```plaintext
 portfolio/
 ├── index.html
 ├── assets/
@@ -78,7 +78,7 @@ portfolio/
 │ │ ├── home.png
 │ │ └── projects.png
 │ └── KUMARSUTIKSHAN.pdf
-
+```
 
 ---
 
