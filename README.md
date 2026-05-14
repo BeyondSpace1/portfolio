@@ -1,5 +1,4 @@
-# 🌐 Kumar Sutikshan – Interactive Portfolio
- 
+
 <div align="center">
 
 # Kumar Sutikshan — Portfolio
